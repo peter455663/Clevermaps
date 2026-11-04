@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "nova_utility_client",
+  "version": "${version}",
+  "name": "Nova Utility Client",
+  "description": "A lightweight client-side utility HUD for Minecraft 26.3.",
+  "authors": ["Nova"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "hu.nova.utility.NovaUtilityClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.3",
+    "java": ">=25",
+    "fabric-api": ">=0.165.2+26.3"
+  }
+}
